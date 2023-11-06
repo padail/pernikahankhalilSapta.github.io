@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KHALIL & SAPTA - Free Wedding Website Template</title>
+    <title>KHALIL & SAPTA</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Undangan Pernikahan" name="keywords">
+    <meta content="Undangan Pernikahan Khalil & Sapta" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -69,10 +69,14 @@
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                                 <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
                             </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                                <span></span>
-                            </button>
+                            <div class="navbar-nav">
+                                <a href="#event" class="nav-item nav-link">
+                                    <button type="button" class="btn-play mx-auto" id="playButton">
+                                        <span>
+                                        </span>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,10 +90,14 @@
                             <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
                                 <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
                             </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
-                                <span></span>
-                            </button>
+                            <div class="navbar-nav">
+                                <a href="#event" class="nav-item nav-link">
+                                    <button type="button" class="btn-play mx-auto" id="playButton">
+                                        <span>
+                                        </span>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,6 +116,13 @@
     </div>
     <!-- Carousel End -->
 
+<!-- backsound -->
+
+    <audio id="backgroundMusic" loop>
+        <source src="img/tiktake_qlbHzlmMt.mp3" type="audio/mpeg">
+    </audio>
+
+<!-- end backsound -->
 
     <!-- Video Modal Start -->
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -128,6 +143,8 @@
     <!-- Video Modal End -->
 
     <!-- Event Start -->
+    <button id="playButton">Play</button>
+<button id="pauseButton">Pause</button>
     <div class="container-fluid pb-5" id="event">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
@@ -137,7 +154,8 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
-                    <h6 class="font-weight-normal text-muted mb-3 pb-3">Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo</h6>
+                    <h6 class="font-weight-normal text-muted mb-3 pb-3">Kami dengan senang hati mengundang Anda untuk merayakan 
+                        momen istimewa kami saat kami bersatu dalam ikatan suci pernikahan.</h6>
                 </div>
             </div>
             <div class="row">
@@ -517,6 +535,7 @@
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
     <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 

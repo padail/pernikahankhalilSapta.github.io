@@ -27,6 +27,22 @@
         }
     });
 
+    // BACKSOUND
+    document.addEventListener('DOMContentLoaded', function() {
+        const audio = document.getElementById('backgroundMusic');
+        const playButton = document.getElementById('playButton');
+        const pauseButton = document.getElementById('pauseButton');
+        playButton.addEventListener('click', function() {
+          audio.play();
+          audio.loop();
+        });
+      
+        pauseButton.addEventListener('click', function() {
+          audio.pause();
+        });
+      
+      });
+      
 
     // Modal Video
     $(document).ready(function () {
